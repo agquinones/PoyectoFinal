@@ -1,7 +1,7 @@
 # PoyectoFinal
 Entrega final proyecto Blog en Django con Python para Coderhouse
 
-Link al video demostracion:
+Video demostracion:
 https://www.loom.com/share/f9e13e06e85c4045b48e8d4672570758
 
 
