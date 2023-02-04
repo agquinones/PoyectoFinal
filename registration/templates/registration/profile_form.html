@@ -21,7 +21,6 @@
               <h3>Perfil</h3>
               <input type="file" name="avatar" class="form-control-file mt-3" id="id_avatar">
               {{ form.bio }}
-
               <input type="email" value="{{request.user.email}}" class="form-control mt-3" readonly>
               <p class="nt-3">
                 Para Cambiar tu email, click <a href="{% url 'profile_email' %}">aquí</a><br>

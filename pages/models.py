@@ -10,6 +10,7 @@ class Page(models.Model):
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de edición")
     author = models.ForeignKey(User, default= '', on_delete=models.CASCADE, related_name='posts')
+    image = models.ImageField(upload_to='imagenes/',null=True, blank=True)
 
     class Meta:
         verbose_name = "página"
