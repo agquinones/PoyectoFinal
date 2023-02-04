@@ -12,6 +12,7 @@
                 <h2 class="mb-4">{{page.title}}</h2>
                 <div>
                     <p>{{page.content|striptags|safe|truncatechars:"100"}}</p>
+                    @{{page.author}} | {{page.created}}
                     <p><a href="{% url 'pages:page' page.id %}">Leer más</a>
                     {% if request.user == page.author %}
                        |    <a href="{% url 'pages:update' page.id %}">Editar</a>

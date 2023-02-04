@@ -13,5 +13,5 @@ class PageForm(forms.ModelForm):
             'content': forms.Textarea(attrs={'class':'form-control'}),
         }
         labels ={
-            'subtitle':'', 'content':'','author':''
+            'title':'','subtitle':'', 'content':'','author':''
         }

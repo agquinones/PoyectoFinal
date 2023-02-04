@@ -14,7 +14,7 @@
         <h3 class="section-heading mb-4">{{page.subtitle}}</h3>
         <div>
           {{page.content|safe}}
-          @{{page.author}}
+          @{{page.author}} | {{page.created}}
           {% if request.user == page.author %}
             <p><a href="{% url 'pages:update' page.id %}">Editar</a></p>
           {% endif %}
