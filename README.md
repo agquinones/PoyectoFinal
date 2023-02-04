@@ -16,7 +16,7 @@ Login:
 ![image](https://user-images.githubusercontent.com/109445669/216763095-a9404eb5-d426-48d1-a2a2-43b8ed9b8b5e.png)
 
 Creacion de pagina:
-(en este punto tuve un problema q no llegue a resolver, arme las vistas tal como pude encontrar en distintas documentaciones pero me tiraba mensajes de que el campo oculto de autor no podia estar en blanco, siendo q le estaba asignando el usuario logueado. La forma en que quedo fue la unica q no me arrojo error, pero entiendo q no es correcto que al dar crear una pagina los usuarios se les permita elegir quien crear el post).
+(en este punto tuve un problema q no llegue a resolver, arme las vistas tal como pude encontrar en distintas documentaciones pero me tiraba mensajes de que el campo oculto de autor no podia estar en blanco, siendo q le estaba asignando el usuario logueado. La forma en que quedo fue la unica q no me arrojo error, pero entiendo q no es correcto que al crear una pagina los usuarios se les permita elegir quien crear el post).
 ![image](https://user-images.githubusercontent.com/109445669/216763111-aa0669b3-307f-4ed9-a848-147661eca263.png)
 
 Detalle de pagina:
