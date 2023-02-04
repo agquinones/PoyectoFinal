@@ -1,5 +1,6 @@
 from django.db import models
 from ckeditor.fields import RichTextField
+from django.contrib.auth.models import User
 
 class Page(models.Model):
     title = models.CharField(verbose_name="Título", max_length=200)
@@ -8,6 +9,7 @@ class Page(models.Model):
     order = models.SmallIntegerField(verbose_name="Orden", default=0)
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de edición")
+    author = models.ForeignKey(User, default= '', on_delete=models.CASCADE, related_name='posts')
 
     class Meta:
         verbose_name = "página"

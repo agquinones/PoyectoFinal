@@ -11,6 +11,7 @@
         <h3 class="section-heading mb-4">{{page.subtitle}}</h3>
         <div>
           {{page.content|safe}}
+          @{{page.author}}
           {% if request.user.is_staff %}
             <p><a href="{% url 'pages:update' page.id %}">Editar</a></p>
           {% endif %}
